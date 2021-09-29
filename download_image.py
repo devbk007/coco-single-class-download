@@ -5,9 +5,10 @@ import requests
 import os
 import shutil
 from time import sleep
+from required_class import ann_file
 
 
-coco = COCO('annotations_trainval2017/instances_train2017.json')
+coco = COCO(ann_file)
 cats = coco.loadCats(coco.getCatIds())
 nms = [cat['name'] for cat in cats]
 print('COCO categories: \n{}\n'.format(' '.join(nms)))

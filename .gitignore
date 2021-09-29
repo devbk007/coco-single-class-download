@@ -3,3 +3,10 @@ requirements.txt
 __pycache__/download_image.cpython-37.pyc
 __pycache__/required_class.cpython-36.pyc
 __pycache__/required_class.cpython-37.pyc
+annotations/captions_train2017.json
+annotations/captions_val2017.json
+annotations/instances_train2017.json
+annotations/instances_val2017.json
+.gitignore
+annotations/person_keypoints_train2017.json
+annotations/person_keypoints_val2017.json

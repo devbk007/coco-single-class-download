@@ -1,4 +1,4 @@
-root_dir = "<Enter the root path"
+root_dir = "<Enter the root path>"
 ann_file = "<Enter annotation json file path>"
 
 names = str(input("Enter the required class : "))
