@@ -1,5 +1,5 @@
-root_dir = "F:\learn\ineuron\CNN\coco_download_classes"
-ann_file = "annotations_trainval2017\instances_train2017.json"
+root_dir = "<Enter the root path"
+ann_file = "<Enter annotation json file path>"
 
 names = str(input("Enter the required class : "))
 classes = names.split('.')
