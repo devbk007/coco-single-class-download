@@ -3,6 +3,7 @@
 Download specific image class as well as its annotation from the COCO dataset for Tensorflow Object Detection.
 
 ## Steps:
+   Can visit this article for more understancing on installation : https://baizel.medium.com/how-to-download-images-and-annotations-of-a-single-object-class-from-coco-dataset-6d0ae8ee8c42
 
 1. Clone the repository
 
