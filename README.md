@@ -3,23 +3,29 @@
 Download specific image class as well as its annotation from the COCO dataset for Tensorflow Object Detection.
 
 ## Steps:
-   Can visit this article for more understancing on installation : https://baizel.medium.com/how-to-download-images-and-annotations-of-a-single-object-class-from-coco-dataset-6d0ae8ee8c42
+   Can visit this article for more understanding on installation : https://baizel.medium.com/how-to-download-images-and-annotations-of-a-single-object-class-from-coco-dataset-6d0ae8ee8c42
 
 1. Clone the repository
 
 2. Download JSON file from COCO website
 
    - For 2017 version,
-     - $ wget http://images.cocodataset.org/annotations/annotations_trainval2017.zip or open the link and save the zip file
+    ```
+    wget http://images.cocodataset.org/annotations/annotations_trainval2017.zip or open the link and save the zip file
+    ```
    - For 2014 version,
-     - $ wget http://images.cocodataset.org/annotations/annotations_trainval2014.zip or open the link and save the zip file
+    ```
+    wget http://images.cocodataset.org/annotations/annotations_trainval2014.zip or open the link and save the zip file
+    ```
+    
    - Unzip the file
 
 3. Enter the path for root directory and annotation file in required_classes.py file
 
 4. Run the following command
-
-   - $ python run.py
+   ```
+    python run.py
+    ```
 
 5. Enter the required class as well as the test ratio in the terminal<br><br>
    ![Screenshot](github_screenshot.JPG)
@@ -30,8 +36,11 @@ Download specific image class as well as its annotation from the COCO dataset fo
 
 ## Available Classes in COCO dataset
 
-    - Run python coco_available_classes.py -y <year> to see it. eg : python coco_available_classes.py -y 2017
-
+    - Run the following command
+      ```
+        python coco_available_classes.py -y <year> to see it. eg : python coco_available_classes.py -y 2017
+       ```
+   
 # Reference
 
     https://github.com/cocodataset/cocoapi/issues/271
