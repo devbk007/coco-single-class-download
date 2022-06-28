@@ -36,7 +36,6 @@ Download specific image class as well as its annotation from the COCO dataset fo
 
 ## Available Classes in COCO dataset
 
-    - Run the following command
       ```
         python coco_available_classes.py -y <year> to see it. eg : python coco_available_classes.py -y 2017
        ```
